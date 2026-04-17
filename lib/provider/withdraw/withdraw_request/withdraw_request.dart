@@ -42,7 +42,7 @@ class _WithdrawRequestState extends State<WithdrawRequest> {
 
   List<String> withdrawalMethodList = [
     PAYMENT_METHOD_BANK,
-    PAYMENT_METHOD_COD,
+    // PAYMENT_METHOD_COD,
   ];
 
   int page = 1;
@@ -232,18 +232,20 @@ class _WithdrawRequestState extends State<WithdrawRequest> {
                   ),
                 ],
                 40.height,
-                AppButton(
-                  text: languages.withdraw,
-                  height: 40,
-                  color: primaryColor,
-                  textStyle: boldTextStyle(color: white),
-                  width: context.width() - context.navigationBarHeight,
-                  onTap: () {
-                    if (formKey.currentState!.validate()) {
-                      hideKeyboard(context);
-                      withdrawMoney();
-                    }
-                  },
+                SafeArea(
+                  child: AppButton(
+                    text: languages.withdraw,
+                    height: 40,
+                    color: primaryColor,
+                    textStyle: boldTextStyle(color: white),
+                    width: context.width() - context.navigationBarHeight,
+                    onTap: () {
+                      if (formKey.currentState!.validate()) {
+                        hideKeyboard(context);
+                        withdrawMoney();
+                      }
+                    },
+                  ),
                 ),
               ],
             ).paddingSymmetric(horizontal: 16, vertical: 16),

@@ -615,20 +615,22 @@ class _AddPackageScreenState extends State<AddPackageScreen> {
                     8.height,
                     buildFormWidget(),
                     Observer(
-                        builder: (context) => AppButton(
-                              text: context.translate.btnSave,
-                              height: 40,
-                              color: context.primaryColor,
-                              textStyle: boldTextStyle(color: white),
-                              width: context.width() - context.navigationBarHeight,
-                              onTap: appStore.isLoading
-                                  ? null
-                                  : () {
-                                      ifNotTester(context, () {
-                                        checkValidation(isSave: true);
-                                      });
-                                    },
-                            ))
+                        builder: (context) => SafeArea(
+                      child: AppButton(
+                        text: context.translate.btnSave,
+                        height: 40,
+                        color: context.primaryColor,
+                        textStyle: boldTextStyle(color: white),
+                        width: context.width() - context.navigationBarHeight,
+                        onTap: appStore.isLoading
+                            ? null
+                            : () {
+                                ifNotTester(context, () {
+                                  checkValidation(isSave: true);
+                                });
+                              },
+                      ),
+                    ))
                   ],
                 ),
               ).expand(),

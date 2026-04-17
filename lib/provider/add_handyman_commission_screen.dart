@@ -313,20 +313,22 @@ class AddHandymanCommissionTypeListScreenState extends State<AddHandymanCommissi
                     },
                   ),
                   24.height,
-                  AppButton(
-                    text: languages.btnSave,
-                    color: primaryColor,
-                    width: context.width(),
-                    onTap: () {
-                      if (widget.typeData == null ||
-                          widget.typeData!.deletedAt == null) {
-                        ifNotTester(context, () {
-                          addProviderHandymanTypeList(isSave: true);
-                        });
-                      } else {
-                        toast(languages.youCanTUpdateDeleted);
-                      }
-                    },
+                  SafeArea(
+                    child: AppButton(
+                      text: languages.btnSave,
+                      color: primaryColor,
+                      width: context.width(),
+                      onTap: () {
+                        if (widget.typeData == null ||
+                            widget.typeData!.deletedAt == null) {
+                          ifNotTester(context, () {
+                            addProviderHandymanTypeList(isSave: true);
+                          });
+                        } else {
+                          toast(languages.youCanTUpdateDeleted);
+                        }
+                      },
+                    ),
                   ),
                 ],
               ),

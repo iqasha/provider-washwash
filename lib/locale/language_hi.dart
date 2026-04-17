@@ -12,16 +12,16 @@ class LanguageHi extends Languages {
   String get provider => 'प्रदाता';
 
   @override
-  String get lblShowingOnly4Handyman => 'केवल 4 अप्रेंटिस दिखा रहा है';
+  String get lblShowingOnly4Handyman => 'केवल 4 कार्य दिखा रहा है';
 
   @override
-  String get lblRecentlyOnlineHandyman => 'हाल ही में ऑनलाइन अप्रेंटिस';
+  String get lblRecentlyOnlineHandyman => 'हाल ही में ऑनलाइन कार्य';
 
   @override
   String get lblStartDrive => 'स्टार्ट ड्राइव';
 
   @override
-  String get handyman => 'सहायक';
+  String get handyman => 'कार्य';
 
   @override
   String get signIn => 'लॉग इन करें';
@@ -183,7 +183,7 @@ class LanguageHi extends Languages {
   String get lblReason => 'कारण';
 
   @override
-  String get lblSelectHandyman => 'कृपया हैंडमैन का चयन करें';
+  String get lblSelectHandyman => 'कृपया कार्य का चयन करें';
 
   @override
   String get lblAssign => 'असाइन';
@@ -207,7 +207,7 @@ class LanguageHi extends Languages {
   String get lblRevenue => 'राजस्व';
 
   @override
-  String get lblAddHandyman => 'हैंडमैन जोड़ें';
+  String get lblAddHandyman => 'कार्य जोड़ें';
 
   @override
   String get lblBooking => 'बुकिंग';
@@ -219,7 +219,7 @@ class LanguageHi extends Languages {
   String get lblTotalService => 'कुल सेवा';
 
   @override
-  String get lblTotalHandyman => 'कुल अप्रासंगिक';
+  String get lblTotalHandyman => 'कुल कार्य';
 
   @override
   String get monthlyEarnings => 'मासिक आय';
@@ -279,7 +279,7 @@ class LanguageHi extends Languages {
   String get lblProfile => 'प्रोफ़ाइल';
 
   @override
-  String get lblAllHandyman => 'सभी अप्रेंटिस';
+  String get lblAllHandyman => 'सभी कार्य';
 
   @override
   String get lblTime => 'समय';
@@ -426,7 +426,7 @@ class LanguageHi extends Languages {
   String get lblDate => "तारीख";
 
   @override
-  String get lblAboutHandyman => "हैंन्डमैन के बारे में";
+  String get lblAboutHandyman => "कार्य के बारे में";
 
   @override
   String get lblAboutCustomer => "ग्राहक के बारे में";
@@ -483,7 +483,7 @@ class LanguageHi extends Languages {
   String get lblType => "प्रकार";
 
   @override
-  String get lblHandymanType => "हैंडमैन प्रकार";
+  String get lblHandymanType => "कार्य प्रकार";
 
   @override
   String get lblFixed => "फिक्स्ड";
@@ -642,7 +642,7 @@ class LanguageHi extends Languages {
   String get lblSubscriptionHistory => "सदस्यता इतिहास";
 
   @override
-  String get lblTrashHandyman => "हैंडमैन को सफलतापूर्वक कचरा किया गया है";
+  String get lblTrashHandyman => "कार्य को सफलतापूर्वक हटा दिया गया है";
 
   @override
   String get lblPlsSelectAddress => "कृपया चयनित पता";
@@ -714,7 +714,7 @@ class LanguageHi extends Languages {
   String get lblDesignation => "पद";
 
   @override
-  String get lblHandymanIsOffline => "अप्रेंटिस ऑफ़लाइन है";
+  String get lblHandymanIsOffline => "कार्य ऑफ़लाइन है";
 
   @override
   String get lblDoYouWantToRestore => "क्या आप पुनर्स्थापित करना चाहते हैं?";
@@ -855,13 +855,13 @@ class LanguageHi extends Languages {
   String get noNotificationSubTitle => "एक बार आपके पास कुछ होने के बाद हम आपको सूचित करेंगे";
 
   @override
-  String get noHandymanAvailable => "अप्रेंटिस उपलब्ध नहीं है";
+  String get noHandymanAvailable => "कोई कार्य उपलब्ध नहीं है";
 
   @override
-  String get noHandymanYet => "अभी तक कोई अप्रेंटिस नहीं";
+  String get noHandymanYet => "अभी तक कोई कार्य नहीं";
 
   @override
-  String get noHandymanSubTitle => "कृपया जाँच करें और अप्रेंटिस स्थिति पहले सक्रिय करें";
+  String get noHandymanSubTitle => "कृपया पहले कार्य स्थिति की जाँच करें";
 
   @override
   String get noServiceFound => "कोई सेवा नहीं मिली";
@@ -1344,7 +1344,7 @@ class LanguageHi extends Languages {
   String get providerHome => 'प्रदाता गृह';
 
   @override
-  String get handymanHome => 'अप्रत्यक्ष घर';
+  String get handymanHome => 'कार्य होम';
 
   @override
   String get home => 'घर';
@@ -1446,7 +1446,7 @@ class LanguageHi extends Languages {
   String get cashPaymentApproval => 'नकदी भुगतान अनुमोदन';
 
   @override
-  String get approvedByHandyman => 'अप्रेंटिस द्वारा अनुमोदित';
+  String get approvedByHandyman => 'कार्य द्वारा अनुमोदित';
 
   @override
   String get sentToProvider => 'प्रदाता को भेजा गया';
@@ -1482,7 +1482,7 @@ class LanguageHi extends Languages {
   String get bank => 'बैंक';
 
   @override
-  String get handymanApprovedTheRequest => 'अप्रेंटिस ने अनुरोध को मंजूरी दी';
+  String get handymanApprovedTheRequest => 'कार्य ने अनुरोध को मंजूरी दी';
 
   @override
   String get requestSentToTheProvider => 'प्रदाता को भेजा गया अनुरोध';
@@ -1965,13 +1965,13 @@ class LanguageHi extends Languages {
   String get sendMessage => 'मेसेज भेजें';
 
   @override
-  String get handymanLocation => 'सहायक स्थान';
+  String get handymanLocation => 'कार्य स्थान';
 
   @override
   String get track => 'रास्ता';
 
   @override
-  String get trackHandymanLocation => 'अप्रेंटिस स्थान को ट्रैक करें';
+  String get trackHandymanLocation => 'कार्य स्थान को ट्रैक करें';
 
   @override
   String get lastUpdatedAt => 'अंतिम बार अद्यतन किया गया:';
@@ -2070,7 +2070,7 @@ class LanguageHi extends Languages {
   String get lbMinutes => "मिनट ";
 
   @override
-  String get handymanCommission => 'अप्रेंटिस कमीशन';
+  String get handymanCommission => 'कार्य कमीशन';
 
   @override
   String get commission => 'आयोग';
@@ -2082,10 +2082,10 @@ class LanguageHi extends Languages {
   String get typeName => 'नाम टाइप करें';
 
   @override
-  String get addHandymanCommission => 'अप्रेंटिस कमीशन जोड़ें';
+  String get addHandymanCommission => 'कार्य कमीशन जोड़ें';
 
   @override
-  String get editHandymanCommission => 'अप्रेंटिस कमीशन संपादित करें';
+  String get editHandymanCommission => 'कार्य कमीशन संपादित करें';
 
   @override
   String get enterValidCommissionValue => 'वैध कमीशन मूल्य दर्ज करें';
@@ -2267,7 +2267,7 @@ class LanguageHi extends Languages {
   String get noPaymentMethodsFound => 'कोई भुगतान विधि नहीं मिली';
 
   @override
-  String get handymanNotFound => 'सहायक नहीं मिला';
+  String get handymanNotFound => 'कार्य नहीं मिला';
 
   @override
   String get selectStartDateEndDate => 'आरंभ तिथि और समाप्ति तिथि चुनें';
@@ -2291,7 +2291,7 @@ class LanguageHi extends Languages {
   String get lblReassign => 'पुनः असाइन';
 
   @override
-  String get handymanPayoutList => 'अप्रेंटिस भुगतान सूची';
+  String get handymanPayoutList => 'कार्य भुगतान सूची';
 
   @override
   String get earningDetails => 'कमाई का विवरण';
@@ -2300,7 +2300,7 @@ class LanguageHi extends Languages {
   String get adminEarning => 'व्यवस्थापक कमाई';
 
   @override
-  String get handymanName => 'नौकर का नाम';
+  String get handymanName => 'कार्य का नाम';
 
   @override
   String get totalEarning => 'कुल कमाई';
@@ -2309,34 +2309,34 @@ class LanguageHi extends Languages {
   String get myEarning => 'मेरी कमाई';
 
   @override
-  String get handymanPayDue => 'अप्रेंटिस का बकाया वेतन';
+  String get handymanPayDue => 'कार्य का बकाया भुगतान';
 
   @override
-  String get handymanPaidAmount => 'अप्रेंटिस भुगतान राशि';
+  String get handymanPaidAmount => 'कार्य भुगतान राशि';
 
   @override
   String get payout => 'भुगतान';
 
   @override
-  String get addHandymanPayout => 'अप्रेंटिस पेआउट जोड़ें';
+  String get addHandymanPayout => 'कार्य भुगतान जोड़ें';
 
   @override
   String get selectMethod => 'विधि का चयन करें';
 
   @override
-  String get handymanEarning => 'नौकरानी की कमाई';
+  String get handymanEarning => 'कार्य की कमाई';
 
   @override
-  String get handymanEarnings => 'अप्रेंटिस की कमाई';
+  String get handymanEarnings => 'कार्य की कमाई';
 
   @override
   String get noPayoutFound => 'कोई भुगतान नहीं मिला';
 
   @override
-  String get handymanEarningList => 'अप्रेंटिस कमाई सूची';
+  String get handymanEarningList => 'कार्य कमाई सूची';
 
   @override
-  String get permissionDeniedUnableTo => 'अनुमति नहीं मिली! अप्रेंटिस संपादित करने में असमर्थ';
+  String get permissionDeniedUnableTo => 'अनुमति नहीं मिली! कार्य संपादित करने में असमर्थ';
 
   @override
   String get passwordLengthShouldBe => 'पासवर्ड की लंबाई 8 से 12 अक्षर होनी चाहिए।';
@@ -2372,7 +2372,7 @@ class LanguageHi extends Languages {
   String get shortDescription => 'संक्षिप्त वर्णन';
 
   @override
-  String get eGHandymanTrustedService => 'जैसे अप्रेंटिस विश्वसनीय सेवा';
+  String get eGHandymanTrustedService => 'जैसे कार्य विश्वसनीय सेवा';
 
   @override
   String get chooseService => 'सेवा चुनें';

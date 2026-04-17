@@ -719,23 +719,25 @@ class _AddPromotionalBannerScreenState extends State<AddPromotionalBannerScreen>
                   ],
                 ),
               ).expand(),
-              Observer(
-                builder: (_) => AppButton(
-                  margin: EdgeInsets.only(left: 16, bottom: 16, right: 16),
-                  text: isPaymentPending ? languages.pay : languages.lblSubmit,
-                  height: 40,
-                  color: appStore.isLoading ? primaryColor.withValues(alpha: 0.5) : primaryColor,
-                  textStyle: boldTextStyle(color: white),
-                  width: context.width(),
-                  onTap: appStore.isLoading
-                      ? () {}
-                      : () {
-                          if (isPaymentPending) {
-                            _handleClick(); // Retry payment if pending
-                          } else {
-                            checkValidation(); // Submit form and proceed to payment
-                          }
-                        },
+              SafeArea(
+                child: Observer(
+                  builder: (_) => AppButton(
+                    margin: EdgeInsets.only(left: 16, bottom: 16, right: 16),
+                    text: isPaymentPending ? languages.pay : languages.lblSubmit,
+                    height: 40,
+                    color: appStore.isLoading ? primaryColor.withValues(alpha: 0.5) : primaryColor,
+                    textStyle: boldTextStyle(color: white),
+                    width: context.width(),
+                    onTap: appStore.isLoading
+                        ? () {}
+                        : () {
+                            if (isPaymentPending) {
+                              _handleClick(); // Retry payment if pending
+                            } else {
+                              checkValidation(); // Submit form and proceed to payment
+                            }
+                          },
+                  ),
                 ),
               ),
             ],

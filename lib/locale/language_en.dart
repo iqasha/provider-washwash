@@ -11,16 +11,16 @@ class LanguageEn extends Languages {
   String get provider => 'Provider';
 
   @override
-  String get lblShowingOnly4Handyman => 'Showing Only 4 Handyman';
+  String get lblShowingOnly4Handyman => 'Showing Only 4 task';
 
   @override
-  String get lblRecentlyOnlineHandyman => 'Recently Online Handyman';
+  String get lblRecentlyOnlineHandyman => 'Recently Online task';
 
   @override
   String get lblStartDrive => 'Start Drive';
 
   @override
-  String get handyman => 'Handyman';
+  String get handyman => 'Task';
 
   @override
   String get signIn => 'Sign In';
@@ -182,7 +182,7 @@ class LanguageEn extends Languages {
   String get lblReason => 'Reason';
 
   @override
-  String get lblSelectHandyman => 'Please Select Handyman';
+  String get lblSelectHandyman => 'Please Select task';
 
   @override
   String get lblAssign => 'Assign';
@@ -191,7 +191,7 @@ class LanguageEn extends Languages {
   String get lblCall => 'Call';
 
   @override
-  String get lblAssignHandyman => 'Assign Handyman';
+  String get lblAssignHandyman => 'Assign task';
 
   @override
   String get lblAssigned => 'Assigned';
@@ -206,7 +206,7 @@ class LanguageEn extends Languages {
   String get lblRevenue => 'Revenue';
 
   @override
-  String get lblAddHandyman => "Add Handyman";
+  String get lblAddHandyman => "Add task";
 
   @override
   String get lblBooking => 'Bookings';
@@ -218,7 +218,7 @@ class LanguageEn extends Languages {
   String get lblTotalService => 'Total Service';
 
   @override
-  String get lblTotalHandyman => 'Total Handyman';
+  String get lblTotalHandyman => 'Total task';
 
   @override
   String get monthlyEarnings => 'Monthly Earnings';
@@ -278,7 +278,7 @@ class LanguageEn extends Languages {
   String get lblProfile => 'Profile';
 
   @override
-  String get lblAllHandyman => "Handyman List";
+  String get lblAllHandyman => "Task List";
 
   @override
   String get lblTime => 'Time';
@@ -425,7 +425,7 @@ class LanguageEn extends Languages {
   String get lblDate => "Date";
 
   @override
-  String get lblAboutHandyman => "About Handyman";
+  String get lblAboutHandyman => "About task";
 
   @override
   String get lblAboutCustomer => "About Customer";
@@ -482,7 +482,7 @@ class LanguageEn extends Languages {
   String get lblType => "Type";
 
   @override
-  String get lblHandymanType => "Handyman Type";
+  String get lblHandymanType => "Task Type";
 
   @override
   String get lblFixed => "Fixed";
@@ -641,7 +641,7 @@ class LanguageEn extends Languages {
   String get lblSubscriptionHistory => "Subscription History";
 
   @override
-  String get lblTrashHandyman => "Handyman has been Trash successfully";
+  String get lblTrashHandyman => "Task has been trash successfully";
 
   @override
   String get lblPlsSelectAddress => "Please Selected Address";
@@ -713,7 +713,7 @@ class LanguageEn extends Languages {
   String get lblDesignation => "Designation";
 
   @override
-  String get lblHandymanIsOffline => "Handyman is Offline";
+  String get lblHandymanIsOffline => "Task is Offline";
 
   @override
   String get lblDoYouWantToRestore => "Do you want to Restore?";
@@ -854,13 +854,13 @@ class LanguageEn extends Languages {
   String get noNotificationSubTitle => "We'll notify you once we have something for you";
 
   @override
-  String get noHandymanAvailable => "Handyman Not Available";
+  String get noHandymanAvailable => "Task Not Available";
 
   @override
-  String get noHandymanYet => "No Handyman Yet";
+  String get noHandymanYet => "No Task Yet";
 
   @override
-  String get noHandymanSubTitle => "Please check and handyman status active first";
+  String get noHandymanSubTitle => "Please check and task status active first";
 
   @override
   String get noServiceFound => "No Service Found";
@@ -1343,7 +1343,7 @@ class LanguageEn extends Languages {
   String get providerHome => 'Provider Home';
 
   @override
-  String get handymanHome => 'Handyman Home';
+  String get handymanHome => 'Task Home';
 
   @override
   String get home => 'Home';
@@ -1446,7 +1446,7 @@ class LanguageEn extends Languages {
   String get cashPaymentApproval => "Cash Payment Approval";
 
   @override
-  String get approvedByHandyman => "Approved by Handyman";
+  String get approvedByHandyman => "Approved by task";
 
   @override
   String get sentToProvider => "Sent to Provider";
@@ -1482,7 +1482,7 @@ class LanguageEn extends Languages {
   String get bank => "Bank";
 
   @override
-  String get handymanApprovedTheRequest => "Handyman approved the request";
+  String get handymanApprovedTheRequest => "Task approved the request";
 
   @override
   String get requestSentToTheProvider => "Request sent to the provider";
@@ -1965,13 +1965,13 @@ class LanguageEn extends Languages {
   String get sendMessage => 'Send Message';
 
   @override
-  String get handymanLocation => 'Handyman Location';
+  String get handymanLocation => 'Task Location';
 
   @override
   String get track => 'Track';
 
   @override
-  String get trackHandymanLocation => 'Track Handyman Location';
+  String get trackHandymanLocation => 'Track Task Location';
 
   @override
   String get lastUpdatedAt => 'Last updated at:';
@@ -2070,7 +2070,7 @@ class LanguageEn extends Languages {
   String get lbMinutes => "Minutes";
 
   @override
-  String get handymanCommission => 'Handyman Commission';
+  String get handymanCommission => 'Task Commission';
 
   @override
   String get commission => 'Commission';
@@ -2082,10 +2082,10 @@ class LanguageEn extends Languages {
   String get typeName => 'Type Name';
 
   @override
-  String get addHandymanCommission => 'Add Handyman Commission';
+  String get addHandymanCommission => 'Add Task Commission';
 
   @override
-  String get editHandymanCommission => 'Edit Handyman Commission';
+  String get editHandymanCommission => 'Edit Task Commission';
 
   @override
   String get enterValidCommissionValue => 'Enter Valid Commission Value';
@@ -2269,7 +2269,7 @@ class LanguageEn extends Languages {
   String get noPaymentMethodsFound => 'No Payment Methods Found';
 
   @override
-  String get handymanNotFound => 'Handyman Not Found';
+  String get handymanNotFound => 'Task Not Found';
 
   @override
   String get selectStartDateEndDate => 'Select start date & end date';
@@ -2293,7 +2293,7 @@ class LanguageEn extends Languages {
   String get lblReassign => 'Reassign';
 
   @override
-  String get handymanPayoutList => 'Handyman Payout List';
+  String get handymanPayoutList => 'Task Payout List';
 
   @override
   String get earningDetails => 'Earning Details';
@@ -2302,7 +2302,7 @@ class LanguageEn extends Languages {
   String get adminEarning => 'Admin Earning';
 
   @override
-  String get handymanName => 'Handyman Name';
+  String get handymanName => 'Task Name';
 
   @override
   String get totalEarning => 'Total Earning';
@@ -2311,34 +2311,34 @@ class LanguageEn extends Languages {
   String get myEarning => 'My Earning';
 
   @override
-  String get handymanPayDue => 'Handyman Pay Due';
+  String get handymanPayDue => 'Task Pay Due';
 
   @override
-  String get handymanPaidAmount => 'Handyman Paid Amount';
+  String get handymanPaidAmount => 'Task Paid Amount';
 
   @override
   String get payout => 'Payout';
 
   @override
-  String get addHandymanPayout => 'Add Handyman Payout';
+  String get addHandymanPayout => 'Add Task Payout';
 
   @override
   String get selectMethod => 'Select Method';
 
   @override
-  String get handymanEarning => 'Handyman Earning';
+  String get handymanEarning => 'Task Earning';
 
   @override
-  String get handymanEarnings => 'Handyman Earnings';
+  String get handymanEarnings => 'Task Earnings';
 
   @override
   String get noPayoutFound => 'No Payout Found';
 
   @override
-  String get handymanEarningList => 'Handyman Earning List';
+  String get handymanEarningList => 'Task Earning List';
 
   @override
-  String get permissionDeniedUnableTo => 'Permission denied! Unable to edit Handyman';
+  String get permissionDeniedUnableTo => 'Permission denied! Unable to edit Task';
 
   @override
   String get passwordLengthShouldBe => 'Password length should be 8 to 12 characters.';
@@ -2374,7 +2374,7 @@ class LanguageEn extends Languages {
   String get shortDescription => 'Short Description';
 
   @override
-  String get eGHandymanTrustedService => 'e.g. Handyman trusted service';
+  String get eGHandymanTrustedService => 'e.g. Task trusted service';
 
   @override
   String get chooseService => 'Choose Service';

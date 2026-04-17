@@ -167,17 +167,19 @@ class ChangePasswordScreenState extends State<ChangePasswordScreen> {
                       decoration: inputDecoration(context, hint: languages.hintReenterPasswordTxt),
                     ),
                     24.height,
-                    AppButton(
-                      text: languages.confirm,
-                      height: 40,
-                      color: primaryColor,
-                      textStyle: boldTextStyle(color: white),
-                      width: context.width() - context.navigationBarHeight,
-                      onTap: () {
-                        ifNotTester(context, () {
-                          changePassword();
-                        });
-                      },
+                    SafeArea(
+                      child: AppButton(
+                        text: languages.confirm,
+                        height: 40,
+                        color: primaryColor,
+                        textStyle: boldTextStyle(color: white),
+                        width: context.width() - context.navigationBarHeight,
+                        onTap: () {
+                          ifNotTester(context, () {
+                            changePassword();
+                          });
+                        },
+                      ),
                     ),
                     24.height,
                   ],

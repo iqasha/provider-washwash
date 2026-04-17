@@ -10,16 +10,16 @@ class LanguageAr extends Languages {
   String get provider => 'مزود';
 
   @override
-  String get lblShowingOnly4Handyman => 'اضهار ٤ عمال فقط';
+  String get lblShowingOnly4Handyman => 'إظهار ٤ مهام فقط';
 
   @override
-  String get lblRecentlyOnlineHandyman => 'العمال المتصلون';
+  String get lblRecentlyOnlineHandyman => 'المهام المتصلة';
 
   @override
   String get lblStartDrive => 'ابدأ القيادة';
 
   @override
-  String get handyman => 'عامل';
+  String get handyman => 'مهمة';
 
   @override
   String get signIn => 'تسجيل دخول';
@@ -181,7 +181,7 @@ class LanguageAr extends Languages {
   String get lblReason => 'السبب';
 
   @override
-  String get lblSelectHandyman => 'الرجاء اختيار العامل الماهر';
+  String get lblSelectHandyman => 'يرجى اختيار المهمة';
 
   @override
   String get lblAssign => 'تعيين';
@@ -190,7 +190,7 @@ class LanguageAr extends Languages {
   String get lblCall => 'اتصال';
 
   @override
-  String get lblAssignHandyman => 'تعيين العامل الماهر';
+  String get lblAssignHandyman => 'تعيين المهمة';
 
   @override
   String get lblAssigned => 'مكلف';
@@ -205,7 +205,7 @@ class LanguageAr extends Languages {
   String get lblRevenue => 'إيرادات';
 
   @override
-  String get lblAddHandyman => 'إضافة لحسابهم الخاص';
+  String get lblAddHandyman => 'إضافة مهمة';
 
   @override
   String get lblBooking => 'الحجز';
@@ -217,7 +217,7 @@ class LanguageAr extends Languages {
   String get lblTotalService => 'إجمالي الخدمات';
 
   @override
-  String get lblTotalHandyman => 'مجموع العمال';
+  String get lblTotalHandyman => 'مجموع المهام';
 
   @override
   String get monthlyEarnings => 'الدخل الشهري';
@@ -277,7 +277,7 @@ class LanguageAr extends Languages {
   String get lblProfile => 'الملف الشخصي';
 
   @override
-  String get lblAllHandyman => 'كل العمال';
+  String get lblAllHandyman => 'كل المهام';
 
   @override
   String get lblTime => 'الوقت';
@@ -481,7 +481,7 @@ class LanguageAr extends Languages {
   String get lblType => "النوع";
 
   @override
-  String get lblHandymanType => 'نوع العامل الماهر';
+  String get lblHandymanType => 'نوع المهمة';
 
   @override
   String get lblFixed => "سعر ثابت";
@@ -640,7 +640,7 @@ class LanguageAr extends Languages {
   String get lblSubscriptionHistory => "تاريخ الاشتراك";
 
   @override
-  String get lblTrashHandyman => 'لقد تم العامل الماهر سلة المهملات بنجاح';
+  String get lblTrashHandyman => 'تم نقل المهمة للمهملات بنجاح';
 
   @override
   String get lblPlsSelectAddress => "يرجى تحديد العنوان";
@@ -853,13 +853,13 @@ class LanguageAr extends Languages {
   String get noNotificationSubTitle => "سنقوم بإعلامك بمجرد أن يكون لدينا شيء لك";
 
   @override
-  String get noHandymanAvailable => "العمال غير متصلون";
+  String get noHandymanAvailable => 'المهام غير متصلة';
 
   @override
-  String get noHandymanYet => "لا يوجد عمال لغاية الان";
+  String get noHandymanYet => 'لا توجد مهام حتى الآن';
 
   @override
-  String get noHandymanSubTitle => "لا يوجد عمال لغاية الان";
+  String get noHandymanSubTitle => 'لا توجد مهام حتى الآن';
 
   @override
   String get noServiceFound => "لم يتم العثور على خدمة";
@@ -2068,7 +2068,7 @@ class LanguageAr extends Languages {
   String get lbMinutes => "دقائق";
 
   @override
-  String get handymanCommission => 'لجنة العامل الماهر';
+  String get handymanCommission => 'عمولة المهمة';
 
   @override
   String get commission => 'عمولة';
@@ -2080,10 +2080,10 @@ class LanguageAr extends Languages {
   String get typeName => 'اكتب الاسم';
 
   @override
-  String get addHandymanCommission => 'إضافة لجنة العامل الماهر';
+  String get addHandymanCommission => 'إضافة عمولة المهمة';
 
   @override
-  String get editHandymanCommission => 'تحرير لجنة العامل الماهر';
+  String get editHandymanCommission => 'تحرير عمولة المهمة';
 
   @override
   String get enterValidCommissionValue => 'أدخل قيمة العمولة الصالحة';
@@ -2265,7 +2265,7 @@ class LanguageAr extends Languages {
   String get noPaymentMethodsFound => 'لم يتم العثور على طرق الدفع';
 
   @override
-  String get handymanNotFound => 'لم يتم العثور على العامل الماهر';
+  String get handymanNotFound => 'لم يتم العثور على المهمة';
 
   @override
   String get selectStartDateEndDate => 'حدد تاريخ البدء وتاريخ الانتهاء';
@@ -2289,7 +2289,7 @@ class LanguageAr extends Languages {
   String get lblReassign => 'إعادة التعيين';
 
   @override
-  String get handymanPayoutList => 'قائمة دفع تعويضات العامل الماهر';
+  String get handymanPayoutList => 'قائمة دفع تعويضات المهمة';
 
   @override
   String get earningDetails => 'تفاصيل الكسب';
@@ -2298,7 +2298,7 @@ class LanguageAr extends Languages {
   String get adminEarning => 'أرباح المشرف';
 
   @override
-  String get handymanName => 'اسم العامل الماهر';
+  String get handymanName => 'اسم المهمة';
 
   @override
   String get totalEarning => 'إجمالي الربح';
@@ -2307,34 +2307,34 @@ class LanguageAr extends Languages {
   String get myEarning => 'كسبي';
 
   @override
-  String get handymanPayDue => 'العامل الماهر الدفع المستحق';
+  String get handymanPayDue => 'المهمة الدفع المستحق';
 
   @override
-  String get handymanPaidAmount => 'العامل الماهر المبلغ المدفوع';
+  String get handymanPaidAmount => 'المهمة المبلغ المدفوع';
 
   @override
   String get payout => 'الدفع';
 
   @override
-  String get addHandymanPayout => 'إضافة تعويضات العامل الماهر';
+  String get addHandymanPayout => 'إضافة تعويضات المهمة';
 
   @override
   String get selectMethod => 'حدد الطريقة';
 
   @override
-  String get handymanEarning => 'كسب العامل الماهر';
+  String get handymanEarning => 'كسب المهمة';
 
   @override
-  String get handymanEarnings => 'أرباح العامل الماهر';
+  String get handymanEarnings => 'أرباح المهمة';
 
   @override
   String get noPayoutFound => 'لم يتم العثور على دفع تعويضات';
 
   @override
-  String get handymanEarningList => 'قائمة أرباح العامل الماهر';
+  String get handymanEarningList => 'قائمة أرباح المهمة';
 
   @override
-  String get permissionDeniedUnableTo => 'تم رفض الإذن! غير قادر على تحرير العامل الماهر';
+  String get permissionDeniedUnableTo => 'تم رفض الإذن! غير قادر على تحرير المهمة';
 
   @override
   String get passwordLengthShouldBe => 'يجب أن يكون طول كلمة المرور من 8 إلى 12 حرفًا.';
@@ -2370,7 +2370,7 @@ class LanguageAr extends Languages {
   String get shortDescription => 'وصف قصير';
 
   @override
-  String get eGHandymanTrustedService => 'على سبيل المثال خدمة موثوقة من العامل الماهر';
+  String get eGHandymanTrustedService => 'على سبيل المثال خدمة موثوقة من المهمة';
 
   @override
   String get chooseService => 'اختر الخدمة';

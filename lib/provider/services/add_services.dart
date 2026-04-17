@@ -809,21 +809,23 @@ class _AddServicesState extends State<AddServices> {
                   ).paddingOnly(left: 16.0, right: 16.0),
                 ),
               ),
-              Observer(
-                builder: (_) => AppButton(
-                  margin: EdgeInsets.only(bottom: 12),
-                  text: languages.btnSave,
-                  height: 40,
-                  color: appStore.isLoading ? primaryColor.withValues(alpha: 0.5) : primaryColor,
-                  textStyle: boldTextStyle(color: white),
-                  width: context.width() - context.navigationBarHeight,
-                  onTap: appStore.isLoading
-                      ? () {}
-                      : () {
-                          checkValidation(isSave: true);
-                        },
-                ),
-              ).paddingOnly(left: 16.0, right: 16.0),
+              SafeArea(
+                child: Observer(
+                  builder: (_) => AppButton(
+                    margin: EdgeInsets.only(bottom: 12),
+                    text: languages.btnSave,
+                    height: 40,
+                    color: appStore.isLoading ? primaryColor.withValues(alpha: 0.5) : primaryColor,
+                    textStyle: boldTextStyle(color: white),
+                    width: context.width() - context.navigationBarHeight,
+                    onTap: appStore.isLoading
+                        ? () {}
+                        : () {
+                            checkValidation(isSave: true);
+                          },
+                  ),
+                ).paddingOnly(left: 16.0, right: 16.0),
+              ),
             ],
           ),
           Observer(builder: (_) => LoaderWidget().center().visible(appStore.isLoading)),

@@ -1510,9 +1510,9 @@ class BookingDetailScreenState extends State<BookingDetailScreen> with WidgetsBi
                   width: context.width(),
                   decoration: BoxDecoration(color: context.cardColor),
                   child: SafeArea(
-                    child: _action(res: res.data!),
+                    top: false,
+                    child: _action(res: res.data!).paddingSymmetric(horizontal: 16, vertical: 16),
                   ),
-                  padding: showBottomActionBar ? EdgeInsets.all(16) : EdgeInsets.zero,
                 ),
               )
             ],

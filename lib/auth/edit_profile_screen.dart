@@ -968,17 +968,19 @@ class EditProfileScreenState extends State<EditProfileScreen> {
                             child: Text(languages.addReasons, style: primaryTextStyle(color: context.primaryColor)),
                           ),
                           28.height,
-                          AppButton(
-                            text: languages.saveChanges,
-                            height: 40,
-                            color: primaryColor,
-                            textStyle: boldTextStyle(color: white),
-                            width: context.width() - context.navigationBarHeight,
-                            onTap: () {
-                              ifNotTester(context, () {
-                                update();
-                              });
-                            },
+                          SafeArea(
+                            child: AppButton(
+                              text: languages.saveChanges,
+                              height: 40,
+                              color: primaryColor,
+                              textStyle: boldTextStyle(color: white),
+                              width: context.width() - context.navigationBarHeight,
+                              onTap: () {
+                                ifNotTester(context, () {
+                                  update();
+                                });
+                              },
+                            ),
                           ),
                           24.height,
                         ],

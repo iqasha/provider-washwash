@@ -257,17 +257,19 @@ class _AddBlogScreenState extends State<AddBlogScreen> {
                   },
                 ),
                 buildFormWidget(),
-                AppButton(
-                  text: languages.btnSave,
-                  height: 40,
-                  color: context.primaryColor,
-                  textStyle: boldTextStyle(color: white),
-                  width: context.width() - context.navigationBarHeight,
-                  onTap: () {
-                    ifNotTester(context, () {
-                      checkValidation();
-                    });
-                  },
+                SafeArea(
+                  child: AppButton(
+                    text: languages.btnSave,
+                    height: 40,
+                    color: context.primaryColor,
+                    textStyle: boldTextStyle(color: white),
+                    width: context.width() - context.navigationBarHeight,
+                    onTap: () {
+                      ifNotTester(context, () {
+                        checkValidation();
+                      });
+                    },
+                  ),
                 ),
               ],
             ),

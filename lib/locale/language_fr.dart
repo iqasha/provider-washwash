@@ -12,16 +12,16 @@ class LanguageFr extends Languages {
   String get provider => 'Fournisseur';
 
   @override
-  String get lblShowingOnly4Handyman => 'Montrant seulement 4 bricoles';
+  String get lblShowingOnly4Handyman => 'Montrant seulement 4 tâches';
 
   @override
-  String get lblRecentlyOnlineHandyman => 'Handyman récemment en ligne';
+  String get lblRecentlyOnlineHandyman => 'Tâches récemment en ligne';
 
   @override
   String get lblStartDrive => 'Démarrer';
 
   @override
-  String get handyman => 'Bricoleur';
+  String get handyman => 'Tâche';
 
   @override
   String get signIn => 'Connexion';
@@ -183,7 +183,7 @@ class LanguageFr extends Languages {
   String get lblReason => 'Raison';
 
   @override
-  String get lblSelectHandyman => 'S\'il vous plaît sélectionner Handyman';
+  String get lblSelectHandyman => "Veuillez sélectionner une tâche";
 
   @override
   String get lblAssign => 'Attribuer';
@@ -192,7 +192,7 @@ class LanguageFr extends Languages {
   String get lblCall => 'Appel';
 
   @override
-  String get lblAssignHandyman => 'Attribuer le bricoleur';
+  String get lblAssignHandyman => 'Attribuer la tâche';
 
   @override
   String get lblAssigned => 'Attribué';
@@ -207,7 +207,7 @@ class LanguageFr extends Languages {
   String get lblRevenue => 'Revenu';
 
   @override
-  String get lblAddHandyman => 'Faire un bricoleur';
+  String get lblAddHandyman => 'Ajouter une tâche';
 
   @override
   String get lblBooking => 'Réservation';
@@ -219,7 +219,7 @@ class LanguageFr extends Languages {
   String get lblTotalService => 'Service total';
 
   @override
-  String get lblTotalHandyman => 'Total Handyman';
+  String get lblTotalHandyman => 'Total des tâches';
 
   @override
   String get monthlyEarnings => 'Gains mensuels';
@@ -279,7 +279,7 @@ class LanguageFr extends Languages {
   String get lblProfile => 'Profil';
 
   @override
-  String get lblAllHandyman => 'Tout usage';
+  String get lblAllHandyman => 'Toutes les tâches';
 
   @override
   String get lblTime => 'Temps';
@@ -426,7 +426,7 @@ class LanguageFr extends Languages {
   String get lblDate => "Date";
 
   @override
-  String get lblAboutHandyman => "À propos de Handyman";
+  String get lblAboutHandyman => "À propos de la tâche";
 
   @override
   String get lblAboutCustomer => "Sur le client";
@@ -483,7 +483,7 @@ class LanguageFr extends Languages {
   String get lblType => "Taper";
 
   @override
-  String get lblHandymanType => "Type de bricoleur";
+  String get lblHandymanType => "Type de tâche";
 
   @override
   String get lblFixed => "Fixé";
@@ -642,7 +642,7 @@ class LanguageFr extends Languages {
   String get lblSubscriptionHistory => "Historique de l'abonnement";
 
   @override
-  String get lblTrashHandyman => "Handyman a été une corbeille avec succès";
+  String get lblTrashHandyman => "La tâche a été mise à la corbeille avec succès";
 
   @override
   String get lblPlsSelectAddress => "S'il vous plaît une adresse sélectionnée";
@@ -714,7 +714,7 @@ class LanguageFr extends Languages {
   String get lblDesignation => "La désignation";
 
   @override
-  String get lblHandymanIsOffline => "Handyman est hors ligne";
+  String get lblHandymanIsOffline => "La tâche est hors ligne";
 
   @override
   String get lblDoYouWantToRestore => "Voulez-vous restaurer?";
@@ -855,13 +855,13 @@ class LanguageFr extends Languages {
   String get noNotificationSubTitle => "Nous vous informerons une fois que nous aurons quelque chose pour vous";
 
   @override
-  String get noHandymanAvailable => "Handyman non disponible";
+  String get noHandymanAvailable => "Aucune tâche disponible";
 
   @override
-  String get noHandymanYet => "Pas encore de bricoleur";
+  String get noHandymanYet => "Pas encore de tâches";
 
   @override
-  String get noHandymanSubTitle => "Veuillez vérifier et le statut de bricoleur actif en premier";
+  String get noHandymanSubTitle => "Veuillez d'abord vérifier le statut de la tâche active";
 
   @override
   String get noServiceFound => "Aucun service trouvé";
@@ -1344,7 +1344,7 @@ class LanguageFr extends Languages {
   String get providerHome => 'Fournisseur';
 
   @override
-  String get handymanHome => 'Maison à la maison';
+  String get handymanHome => 'Accueil des tâches';
 
   @override
   String get home => 'Maison';
@@ -1446,7 +1446,7 @@ class LanguageFr extends Languages {
   String get cashPaymentApproval => 'Approbation de paiement en espèces';
 
   @override
-  String get approvedByHandyman => "Approuvé par l'homme à tout faire";
+  String get approvedByHandyman => "Approuvé par le service de tâches";
 
   @override
   String get sentToProvider => 'Envoyé au fournisseur';
@@ -1482,7 +1482,7 @@ class LanguageFr extends Languages {
   String get bank => 'Banque';
 
   @override
-  String get handymanApprovedTheRequest => 'Handyman a approuvé la demande';
+  String get handymanApprovedTheRequest => 'La tâche a été approuvée';
 
   @override
   String get requestSentToTheProvider => 'Demande envoyée au fournisseur';
@@ -1971,13 +1971,13 @@ class LanguageFr extends Languages {
   String get sendMessage => 'Envoyer le message';
 
   @override
-  String get handymanLocation => 'Emplacement du bricoleur';
+  String get handymanLocation => 'Emplacement de la tâche';
 
   @override
   String get track => 'Piste';
 
   @override
-  String get trackHandymanLocation => "Suivre l'emplacement du bricoleur";
+  String get trackHandymanLocation => "Suivre l'emplacement de la tâche";
 
   @override
   String get lastUpdatedAt => 'Dernière mise à jour à :';
@@ -2075,7 +2075,7 @@ class LanguageFr extends Languages {
   String get lbMinutes => "Minutes";
 
   @override
-  String get handymanCommission => 'Commission de bricoleur';
+  String get handymanCommission => 'Commission de tâche';
 
   @override
   String get commission => 'Commission';
@@ -2087,10 +2087,10 @@ class LanguageFr extends Languages {
   String get typeName => 'Nom du type';
 
   @override
-  String get addHandymanCommission => 'Ajouter une commission de bricoleur';
+  String get addHandymanCommission => 'Ajouter une commission de tâche';
 
   @override
-  String get editHandymanCommission => 'Modifier la commission du bricoleur';
+  String get editHandymanCommission => 'Modifier la commission de la tâche';
 
   @override
   String get enterValidCommissionValue => 'Entrez une valeur de commission valide';
@@ -2272,7 +2272,7 @@ class LanguageFr extends Languages {
   String get noPaymentMethodsFound => 'Aucun mode de paiement trouvé';
 
   @override
-  String get handymanNotFound => 'Bricoleur introuvable';
+  String get handymanNotFound => 'Tâche introuvable';
 
   @override
   String get selectStartDateEndDate => 'Sélectionnez la date de début et la date de fin';
@@ -2296,7 +2296,7 @@ class LanguageFr extends Languages {
   String get lblReassign => 'Réaffecter';
 
   @override
-  String get handymanPayoutList => 'Liste de paiement du bricoleur';
+  String get handymanPayoutList => 'Liste de paiement des tâches';
 
   @override
   String get earningDetails => 'Détails des gains';
@@ -2305,7 +2305,7 @@ class LanguageFr extends Languages {
   String get adminEarning => "Gains d'administrateur";
 
   @override
-  String get handymanName => 'Nom du bricoleur';
+  String get handymanName => 'Nom de la tâche';
 
   @override
   String get totalEarning => 'Gain total';
@@ -2314,34 +2314,34 @@ class LanguageFr extends Languages {
   String get myEarning => 'Mes gains';
 
   @override
-  String get handymanPayDue => 'Paye de bricoleur due';
+  String get handymanPayDue => 'Paiement de tâche dû';
 
   @override
-  String get handymanPaidAmount => 'Montant payé par le bricoleur';
+  String get handymanPaidAmount => 'Montant payé pour la tâche';
 
   @override
   String get payout => 'Paiement';
 
   @override
-  String get addHandymanPayout => 'Ajouter un paiement pour bricoleur';
+  String get addHandymanPayout => 'Ajouter un paiement pour la tâche';
 
   @override
   String get selectMethod => 'Sélectionnez la méthode';
 
   @override
-  String get handymanEarning => 'Gagner un bricoleur';
+  String get handymanEarning => 'Gains de tâche';
 
   @override
-  String get handymanEarnings => 'Gains de bricoleur';
+  String get handymanEarnings => 'Gains de tâche';
 
   @override
   String get noPayoutFound => 'Aucun paiement trouvé';
 
   @override
-  String get handymanEarningList => 'Liste de gains des bricoleurs';
+  String get handymanEarningList => 'Liste de gains des tâches';
 
   @override
-  String get permissionDeniedUnableTo => 'Autorisation refusée ! Impossible de modifier Handyman';
+  String get permissionDeniedUnableTo => 'Autorisation refusée ! Impossible de modifier la tâche';
 
   @override
   String get passwordLengthShouldBe => 'La longueur du mot de passe doit être comprise entre 8 et 12 caractères.';
@@ -2377,7 +2377,7 @@ class LanguageFr extends Languages {
   String get shortDescription => 'Brève description';
 
   @override
-  String get eGHandymanTrustedService => 'par ex. Service de confiance pour bricoleur';
+  String get eGHandymanTrustedService => 'par ex. Service de tâches de confiance';
 
   @override
   String get chooseService => 'Choisissez un service';

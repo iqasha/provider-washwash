@@ -124,13 +124,15 @@ class _AddHandymanPayoutScreenState extends State<AddHandymanPayoutScreen> {
                 decoration: inputDecoration(context, hint: languages.handymanEarning),
               ),
               20.height,
-              AppButton(
-                text: languages.btnSave,
-                color: primaryColor,
-                width: context.width(),
-                onTap: () {
-                  saveProviderPayout();
-                },
+              SafeArea(
+                child: AppButton(
+                  text: languages.btnSave,
+                  color: primaryColor,
+                  width: context.width(),
+                  onTap: () {
+                    saveProviderPayout();
+                  },
+                ),
               ),
             ],
           ),

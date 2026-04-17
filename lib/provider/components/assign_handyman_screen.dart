@@ -184,9 +184,6 @@ class _AssignHandymanScreenState extends State<AssignHandymanScreen> {
   }
 
   Widget buildRadioListTile({required UserData userData}) {
-    if (!userData.isHandymanAvailable.validate()) {
-      return buildHandymanItem(userData: userData).paddingSymmetric(vertical: 13, horizontal: 16);
-    }
     return RadioListTile<UserData>(
       value: userData,
       contentPadding: EdgeInsets.symmetric(vertical: 4, horizontal: 16),

@@ -11,16 +11,16 @@ class LanguageDe extends Languages {
   String get provider => 'Anbieter';
 
   @override
-  String get lblShowingOnly4Handyman => 'Nur 4 Handwerker zeigen';
+  String get lblShowingOnly4Handyman => 'Nur 4 Aufgaben zeigen';
 
   @override
-  String get lblRecentlyOnlineHandyman => 'Kürzlich Online -Handwerker';
+  String get lblRecentlyOnlineHandyman => 'Kürzlich Online-Aufgaben';
 
   @override
   String get lblStartDrive => 'Start Laufwerk';
 
   @override
-  String get handyman => 'Heimwerker';
+  String get handyman => 'Aufgabe';
 
   @override
   String get signIn => 'Einloggen';
@@ -182,7 +182,7 @@ class LanguageDe extends Languages {
   String get lblReason => 'Grund';
 
   @override
-  String get lblSelectHandyman => 'Bitte wählen Sie Handwerker aus';
+  String get lblSelectHandyman => 'Bitte wählen Sie eine Aufgabe aus';
 
   @override
   String get lblAssign => 'Zuordnen';
@@ -191,7 +191,7 @@ class LanguageDe extends Languages {
   String get lblCall => 'Anruf';
 
   @override
-  String get lblAssignHandyman => 'Handwerker zuweisen.';
+  String get lblAssignHandyman => 'Aufgabe zuweisen.';
 
   @override
   String get lblAssigned => 'Zugewiesen';
@@ -206,7 +206,7 @@ class LanguageDe extends Languages {
   String get lblRevenue => 'Einnahmen';
 
   @override
-  String get lblAddHandyman => 'Handwerker hinzufügen';
+  String get lblAddHandyman => 'Aufgabe hinzufügen';
 
   @override
   String get lblBooking => 'Buchung';
@@ -218,7 +218,7 @@ class LanguageDe extends Languages {
   String get lblTotalService => 'Total Service.';
 
   @override
-  String get lblTotalHandyman => 'Totaler Handwerker.';
+  String get lblTotalHandyman => 'Gesamte Aufgaben.';
 
   @override
   String get monthlyEarnings => 'Monatliches Einkommen';
@@ -278,7 +278,7 @@ class LanguageDe extends Languages {
   String get lblProfile => 'Profil';
 
   @override
-  String get lblAllHandyman => 'Alles Handwerker';
+  String get lblAllHandyman => 'Alle Aufgaben';
 
   @override
   String get lblTime => 'Zeit';
@@ -425,7 +425,7 @@ class LanguageDe extends Languages {
   String get lblDate => "Datum";
 
   @override
-  String get lblAboutHandyman => "Über Handwerker.";
+  String get lblAboutHandyman => "Über Aufgaben.";
 
   @override
   String get lblAboutCustomer => "Über den Kunden.";
@@ -482,7 +482,7 @@ class LanguageDe extends Languages {
   String get lblType => "Art";
 
   @override
-  String get lblHandymanType => "Handwerkertyp.";
+  String get lblHandymanType => "Aufgabentyp.";
 
   @override
   String get lblFixed => "Fest";
@@ -641,7 +641,7 @@ class LanguageDe extends Languages {
   String get lblSubscriptionHistory => "Abonnementverlauf";
 
   @override
-  String get lblTrashHandyman => "Handwerker ist erfolgreich müll";
+  String get lblTrashHandyman => "Aufgabe erfolgreich gelöscht";
 
   @override
   String get lblPlsSelectAddress => "Bitte ausgewählte Adresse.";
@@ -713,7 +713,7 @@ class LanguageDe extends Languages {
   String get lblDesignation => "Bezeichnung";
 
   @override
-  String get lblHandymanIsOffline => "Handwerker ist offline";
+  String get lblHandymanIsOffline => "Aufgabe ist offline";
 
   @override
   String get lblDoYouWantToRestore => "Möchten Sie wiederherstellen?";
@@ -854,13 +854,13 @@ class LanguageDe extends Languages {
   String get noNotificationSubTitle => "Wir werden Sie benachrichtigen, sobald wir etwas für Sie haben";
 
   @override
-  String get noHandymanAvailable => "Handwerker nicht verfügbar";
+  String get noHandymanAvailable => "Keine Aufgaben verfügbar";
 
   @override
-  String get noHandymanYet => "Noch kein Handwerker";
+  String get noHandymanYet => "Noch keine Aufgaben";
 
   @override
-  String get noHandymanSubTitle => "Bitte überprüfen Sie zuerst aktiv und handwerklich aktiv";
+  String get noHandymanSubTitle => "Bitte überprüfen Sie zuerst den Status der aktiven Aufgabe";
 
   @override
   String get noServiceFound => "Kein Service gefunden";
@@ -1343,7 +1343,7 @@ class LanguageDe extends Languages {
   String get providerHome => 'Anbieter nach Hause';
 
   @override
-  String get handymanHome => 'Handwerker nach Hause';
+  String get handymanHome => 'Aufgaben-Startseite';
 
   @override
   String get home => 'Heim';
@@ -1445,7 +1445,7 @@ class LanguageDe extends Languages {
   String get cashPaymentApproval => 'Bargeldgenehmigung';
 
   @override
-  String get approvedByHandyman => 'Genehmigt von Handyman';
+  String get approvedByHandyman => 'Vom Aufgabenservice genehmigt';
 
   @override
   String get sentToProvider => 'An den Anbieter gesendet';
@@ -1481,7 +1481,7 @@ class LanguageDe extends Languages {
   String get bank => 'Bank';
 
   @override
-  String get handymanApprovedTheRequest => 'Handwerker genehmigte die Anfrage';
+  String get handymanApprovedTheRequest => 'Aufgabe genehmigt';
 
   @override
   String get requestSentToTheProvider => 'Anfrage an den Anbieter gesendet';
@@ -1972,13 +1972,13 @@ class LanguageDe extends Languages {
   String get sendMessage => 'Nachricht senden';
 
   @override
-  String get handymanLocation => 'Handwerkerstandort';
+  String get handymanLocation => 'Aufgabenstandort';
 
   @override
   String get track => 'Schiene';
 
   @override
-  String get trackHandymanLocation => 'Verfolgen Sie den Standort des Handwerkers';
+  String get trackHandymanLocation => 'Standort der Aufgabe verfolgen';
 
   @override
   String get lastUpdatedAt => 'Zuletzt aktualisiert unter:';
@@ -2076,7 +2076,7 @@ class LanguageDe extends Languages {
   String get lbMinutes => "Minuten";
 
   @override
-  String get handymanCommission => 'Handwerkerkommission';
+  String get handymanCommission => 'Aufgabenprovision';
 
   @override
   String get commission => 'Kommission';
@@ -2088,10 +2088,10 @@ class LanguageDe extends Languages {
   String get typeName => 'Geben Sie den Namen ein';
 
   @override
-  String get addHandymanCommission => 'Fügen Sie die Handwerkerprovision hinzu';
+  String get addHandymanCommission => 'Aufgabenprovision hinzufügen';
 
   @override
-  String get editHandymanCommission => 'Bearbeiten Sie die Handwerkerkommission';
+  String get editHandymanCommission => 'Aufgabenprovision bearbeiten';
 
   @override
   String get enterValidCommissionValue => 'Geben Sie einen gültigen Provisionswert ein';
@@ -2273,7 +2273,7 @@ class LanguageDe extends Languages {
   String get noPaymentMethodsFound => 'Keine Zahlungsmethoden gefunden';
 
   @override
-  String get handymanNotFound => 'Handwerker nicht gefunden';
+  String get handymanNotFound => 'Aufgabe nicht gefunden';
 
   @override
   String get selectStartDateEndDate => 'Wählen Sie Startdatum und Enddatum';
@@ -2297,7 +2297,7 @@ class LanguageDe extends Languages {
   String get lblReassign => 'Neu zuweisen';
 
   @override
-  String get handymanPayoutList => 'Auszahlungsliste für Handwerker';
+  String get handymanPayoutList => 'Auszahlungsliste für Aufgaben';
 
   @override
   String get earningDetails => 'Verdienstdetails';
@@ -2306,7 +2306,7 @@ class LanguageDe extends Languages {
   String get adminEarning => 'Admin-Verdienst';
 
   @override
-  String get handymanName => 'Name des Handwerkers';
+  String get handymanName => 'Name der Aufgabe';
 
   @override
   String get totalEarning => 'Gesamtverdienst';
@@ -2315,34 +2315,34 @@ class LanguageDe extends Languages {
   String get myEarning => 'Mein Verdienst';
 
   @override
-  String get handymanPayDue => 'Handwerker zahlen fällig';
+  String get handymanPayDue => 'Aufgabenzahlung fällig';
 
   @override
-  String get handymanPaidAmount => 'Vom Handwerker gezahlter Betrag';
+  String get handymanPaidAmount => 'Für Aufgabe gezahlter Betrag';
 
   @override
   String get payout => 'Auszahlung';
 
   @override
-  String get addHandymanPayout => 'Fügen Sie die Handwerkerauszahlung hinzu';
+  String get addHandymanPayout => 'Aufgabenauszahlung hinzufügen';
 
   @override
   String get selectMethod => 'Wählen Sie Methode';
 
   @override
-  String get handymanEarning => 'Handwerker verdienen';
+  String get handymanEarning => 'Aufgabenverdienst';
 
   @override
-  String get handymanEarnings => 'Handwerkerverdienst';
+  String get handymanEarnings => 'Aufgabenverdienst';
 
   @override
   String get noPayoutFound => 'Keine Auszahlung gefunden';
 
   @override
-  String get handymanEarningList => 'Verdienstliste für Handwerker';
+  String get handymanEarningList => 'Verdienstliste für Aufgaben';
 
   @override
-  String get permissionDeniedUnableTo => 'Zugriff verweigert! Handwerker kann nicht bearbeitet werden';
+  String get permissionDeniedUnableTo => 'Zugriff verweigert! Aufgabe kann nicht bearbeitet werden';
 
   @override
   String get passwordLengthShouldBe => 'Die Länge des Passworts sollte 8 bis 12 Zeichen betragen.';
@@ -2378,7 +2378,7 @@ class LanguageDe extends Languages {
   String get shortDescription => 'Kurzbeschreibung';
 
   @override
-  String get eGHandymanTrustedService => 'z.B. Der vertrauenswürdige Handwerker-Service';
+  String get eGHandymanTrustedService => 'z.B. Der vertrauenswürdige Aufgabenservice';
 
   @override
   String get chooseService => 'Wählen Sie Service';

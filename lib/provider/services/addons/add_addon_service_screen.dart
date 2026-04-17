@@ -215,26 +215,28 @@ class _AddAddonServiceScreenState extends State<AddAddonServiceScreen> {
                     16.height,
                     buildFormWidget(),
                     50.height,
-                    Observer(
-                      builder: (context) => AppButton(
-                        text: context.translate.btnSave,
-                        height: 40,
-                        color: context.primaryColor,
-                        textStyle: boldTextStyle(color: white),
-                        width: context.width() - context.navigationBarHeight,
-                        onTap: appStore.isLoading
-                            ? null
-                            : () {
-                                ifNotTester(context, () {
-                                  if ((imageFile != null && imageFile!.path.isNotEmpty)) {
-                                    checkValidation(isSave: true);
-                                  } else {
-                                    toast(languages.pleaseSelectImages);
-                                    hideKeyboard(context);
-                                    _showBottomSheet(context);
-                                  }
-                                });
-                              },
+                    SafeArea(
+                      child: Observer(
+                        builder: (context) => AppButton(
+                          text: context.translate.btnSave,
+                          height: 40,
+                          color: context.primaryColor,
+                          textStyle: boldTextStyle(color: white),
+                          width: context.width() - context.navigationBarHeight,
+                          onTap: appStore.isLoading
+                              ? null
+                              : () {
+                                  ifNotTester(context, () {
+                                    if ((imageFile != null && imageFile!.path.isNotEmpty)) {
+                                      checkValidation(isSave: true);
+                                    } else {
+                                      toast(languages.pleaseSelectImages);
+                                      hideKeyboard(context);
+                                      _showBottomSheet(context);
+                                    }
+                                  });
+                                },
+                        ),
                       ),
                     ),
                   ],

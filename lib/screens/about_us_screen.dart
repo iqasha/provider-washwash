@@ -60,22 +60,23 @@ class AboutUsScreen extends StatelessWidget {
                 }
               } else if (title == languages.lblHelpLineNum) {
                 checkIfLink(context, appConfigurationStore.helplineNumber, title: languages.lblHelpLineNum);
-              } else if (title == 'Rate us') { //Todo:
-                {
-                  if (isAndroid) {
-                    if (getStringAsync(PROVIDER_PLAY_STORE_URL).isNotEmpty) {
-                      commonLaunchUrl(getStringAsync(PROVIDER_PLAY_STORE_URL), launchMode: LaunchMode.externalApplication);
-                    } else {
-                      commonLaunchUrl('${getSocialMediaLink(LinkProvider.PLAY_STORE)}${await getPackageName()}', launchMode: LaunchMode.externalApplication);
-                    }
-                  } else if (isIOS) {
-                    if (getStringAsync(PROVIDER_APPSTORE_URL).isNotEmpty) {
-                      commonLaunchUrl(getStringAsync(PROVIDER_APPSTORE_URL), launchMode: LaunchMode.externalApplication);
-                    } else {
-                      commonLaunchUrl(IOS_LINK_FOR_PARTNER, launchMode: LaunchMode.externalApplication);
-                    }
-                  }
-                }
+              } else if (title == 'Rate us')
+              { //Todo:
+                // {
+                //   if (isAndroid) {
+                //     if (getStringAsync(PROVIDER_PLAY_STORE_URL).isNotEmpty) {
+                //       commonLaunchUrl(getStringAsync(PROVIDER_PLAY_STORE_URL), launchMode: LaunchMode.externalApplication);
+                //     } else {
+                //       commonLaunchUrl('${getSocialMediaLink(LinkProvider.PLAY_STORE)}${await getPackageName()}', launchMode: LaunchMode.externalApplication);
+                //     }
+                //   } else if (isIOS) {
+                //     if (getStringAsync(PROVIDER_APPSTORE_URL).isNotEmpty) {
+                //       commonLaunchUrl(getStringAsync(PROVIDER_APPSTORE_URL), launchMode: LaunchMode.externalApplication);
+                //     } else {
+                //       commonLaunchUrl(IOS_LINK_FOR_PARTNER, launchMode: LaunchMode.externalApplication);
+                //     }
+                //   }
+                // }
               }
             },
             borderRadius: radius(),

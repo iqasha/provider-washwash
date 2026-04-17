@@ -9,9 +9,9 @@ import 'constant.dart';
 
 //region Get Configurations
 
-bool get isCurrencyPositionLeft => appConfigurationStore.currencyPosition == CURRENCY_POSITION_LEFT;
+bool get isCurrencyPositionLeft => true; // appConfigurationStore.currencyPosition == CURRENCY_POSITION_LEFT;
 
-bool get isCurrencyPositionRight => appConfigurationStore.currencyPosition == CURRENCY_POSITION_RIGHT;
+bool get isCurrencyPositionRight => false; // appConfigurationStore.currencyPosition == CURRENCY_POSITION_RIGHT;
 
 //endregion
 
